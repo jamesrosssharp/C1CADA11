@@ -1,0 +1,232 @@
+ERC report (Sun 16 Aug 2020 16:01:11, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /MicroController/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 59.69 mm): Pin 6 (Input) of component J2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 62.23 mm): Pin 8 (Output) of component J2 is unconnected.
+
+***** Sheet /Power/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(190.50 mm, 95.25 mm): Pin 10 (Power output) of component U5 is connected to 
+    @(193.04 mm, 95.25 mm): pin 1 (Power output) of component U5 (net 1).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(193.04 mm, 95.25 mm): Pin 1 (Power output) of component U5 is connected to 
+    @(101.60 mm, 24.13 mm): pin 1 (Power output) of component Q1 (net 1).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(101.60 mm, 24.13 mm): Pin 1 (Power output) of component Q1 is connected to 
+    @(151.13 mm, 111.76 mm): pin 2 (Power output) of component U9 (net 1).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(208.28 mm, 82.55 mm): Pin 11 (Power input) of component U5 is not driven (Net 101).
+ErrType(8): Global label not connected to any other global label
+    @(256.54 mm, 40.64 mm): Global label LBOb is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(256.54 mm, 36.83 mm): Global label PGb is not connected to any other global label.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(77.47 mm, 101.60 mm): Pin 18 (Power input) of component U3 is not driven (Net 108).
+ErrType(8): Global label not connected to any other global label
+    @(57.15 mm, 86.36 mm): Global label VUSB_5V is not connected to any other global label.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(101.60 mm, 30.48 mm): Pin 6 (Power input) of component Q1 is not driven (Net 121).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(208.28 mm, 69.85 mm): Pin 16 (Power input) of component U5 is not driven (Net 127).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(208.28 mm, 72.39 mm): Pin 15 (Power input) of component U5 is not driven (Net 130).
+
+***** Sheet /Display/
+ErrType(8): Global label not connected to any other global label
+    @(53.34 mm, 111.76 mm): Global label DISP_SC is not connected to any other global label.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(64.77 mm, 129.54 mm): Pin 1 (Input) of component U7 is not driven (Net 171).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(163.83 mm, 119.38 mm): Pin 32 (Output) of component D1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(163.83 mm, 116.84 mm): Pin 31 (Output) of component D1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(163.83 mm, 53.34 mm): Pin 6 (Output) of component D1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(163.83 mm, 50.80 mm): Pin 5 (Output) of component D1 is unconnected.
+
+***** Sheet /MISC/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(49.53 mm, 59.69 mm): Pin 5 (Power output) of component J4 is connected to 
+    @(190.50 mm, 95.25 mm): pin 10 (Power output) of component U5 (net 1).
+ErrType(8): Global label not connected to any other global label
+    @(85.09 mm, 44.45 mm): Global label USB_5V is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(57.15 mm, 44.45 mm): Pin 1 (Power output) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(57.15 mm, 54.61 mm): Pin 4 (Passive) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(228.60 mm, 81.28 mm): Pin 2 (Passive) of component SW12 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(229.87 mm, 58.42 mm): Pin 2 (Passive) of component SW13 is unconnected.
+
+***** Sheet /AUDIO/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(151.13 mm, 111.76 mm): Pin 2 (Power output) of component U9 is connected to 
+    @(130.81 mm, 111.76 mm): pin 12 (Power output) of component U9 (net 1).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(130.81 mm, 111.76 mm): Pin 12 (Power output) of component U9 is connected to 
+    @(133.35 mm, 111.76 mm): pin 4 (Power output) of component U9 (net 1).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(137.16 mm, 111.76 mm): Pin 32 (Power output) of component U9 is connected to 
+    @(251.46 mm, 121.92 mm): pin 5 (Power output) of component U6 (net 60).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(189.23 mm, 76.20 mm): Pin 1 (Input) of component LS1 is not driven (Net 334).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(189.23 mm, 90.17 mm): Pin 2 (Input) of component LS2 is not driven (Net 335).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(189.23 mm, 78.74 mm): Pin 2 (Input) of component LS1 is not driven (Net 336).
+
+***** Sheet /FPGA/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(110.49 mm, 146.05 mm): Pin 24 (Power input) of component U10 is not driven (Net 61).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(110.49 mm, 143.51 mm): Pin 5 (Power input) of component U10 is not driven (Net 63).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(146.05 mm, 38.10 mm): Pin 22 (Power input) of component U10 is not driven (Net 67).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(49.53 mm, 35.56 mm): Pin 33 (Power input) of component U10 is not driven (Net 69).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(233.68 mm, 48.26 mm): Pin 1 (Power input) of component U10 is not driven (Net 90).
+
+***** Sheet /FPGA2/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 120.65 mm): Pin B4 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(107.95 mm, 149.86 mm): Pin D14 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 146.05 mm): Pin C3 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 143.51 mm): Pin D3 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 140.97 mm): Pin E5 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 138.43 mm): Pin D4 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 135.89 mm): Pin B3 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 133.35 mm): Pin C4 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 130.81 mm): Pin C5 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 128.27 mm): Pin A1 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 125.73 mm): Pin D5 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 123.19 mm): Pin A2 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(107.95 mm, 91.44 mm): Pin H16 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(107.95 mm, 88.90 mm): Pin H11 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 124.46 mm): Pin N2 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 121.92 mm): Pin L7 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 119.38 mm): Pin M2 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 114.30 mm): Pin L3 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 111.76 mm): Pin L6 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 109.22 mm): Pin M1 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 127.00 mm): Pin M6 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 86.36 mm): Pin J3 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 83.82 mm): Pin G1 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 149.86 mm): Pin N4 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 147.32 mm): Pin R1 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 144.78 mm): Pin M5 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 142.24 mm): Pin P2 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 139.70 mm): Pin M4 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 137.16 mm): Pin P1 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 134.62 mm): Pin N3 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 132.08 mm): Pin L5 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(248.92 mm, 129.54 mm): Pin M3 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(184.15 mm, 138.43 mm): Pin K11 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(184.15 mm, 135.89 mm): Pin R16 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(184.15 mm, 133.35 mm): Pin M12 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(184.15 mm, 140.97 mm): Pin P13 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(184.15 mm, 95.25 mm): Pin K9 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(184.15 mm, 92.71 mm): Pin R9 (Bidirectional) of component U11 is unconnected.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(107.95 mm, 152.40 mm): Pin H15 (Power input) of component U11 is not driven (Net 293).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(248.92 mm, 152.40 mm): Pin J6 (Power input) of component U11 is not driven (Net 294).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(59.69 mm, 162.56 mm): Pin E7 (Power input) of component U11 is not driven (Net 295).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(59.69 mm, 172.72 mm): Pin E8 (Power input) of component U11 is not driven (Net 296).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(59.69 mm, 170.18 mm): Pin L8 (Power input) of component U11 is not driven (Net 297).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(59.69 mm, 160.02 mm): Pin N8 (Power input) of component U11 is not driven (Net 298).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(36.83 mm, 148.59 mm): Pin A13 (Power input) of component U11 is not driven (Net 307).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(59.69 mm, 175.26 mm): Pin L2 (Power input) of component U11 is not driven (Net 308).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(54.61 mm, 181.61 mm): Pin 1 (Passive) of component C63 is not driven (Net 309).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(184.15 mm, 143.51 mm): Pin P3 (Power input) of component U11 is not driven (Net 311).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 115.57 mm): Pin B5 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 87.63 mm): Pin D8 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 77.47 mm): Pin F9 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 80.01 mm): Pin C8 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 82.55 mm): Pin F7 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 85.09 mm): Pin B9 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 90.17 mm): Pin B8 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 92.71 mm): Pin A7 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 95.25 mm): Pin C7 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 97.79 mm): Pin B7 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 100.33 mm): Pin B6 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 102.87 mm): Pin C6 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 105.41 mm): Pin D7 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 107.95 mm): Pin A6 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 110.49 mm): Pin D6 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 113.03 mm): Pin A5 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(36.83 mm, 118.11 mm): Pin E6 (Bidirectional) of component U11 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(59.69 mm, 180.34 mm): Pin D12 (Power input) of component U11 is unconnected.
+
+***** Sheet /Memory/
+
+ ** ERC messages: 102  Errors 7  Warnings 95

@@ -1,0 +1,135 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 9
+Title "System"
+Date "2020-08-10"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1500 2000 1500 900 
+U 5F2A9348
+F0 "MicroController" 118
+F1 "micro.sch" 118
+$EndSheet
+$Sheet
+S 8000 2000 1750 900 
+U 5F30C1F7
+F0 "Power" 118
+F1 "Power.sch" 118
+$EndSheet
+$Sheet
+S 1500 4500 1350 750 
+U 5F330824
+F0 "Display" 118
+F1 "Display.sch" 118
+$EndSheet
+$Sheet
+S 4900 4500 1600 900 
+U 5F31E5C9
+F0 "MISC" 118
+F1 "MISC.sch" 118
+$EndSheet
+$Sheet
+S 8000 4500 1800 950 
+U 5F3FA48D
+F0 "AUDIO" 118
+F1 "AUDIO.sch" 118
+$EndSheet
+$Sheet
+S 3950 1050 1300 850 
+U 5F2AA7C0
+F0 "FPGA" 118
+F1 "FPGA.sch" 118
+$EndSheet
+$Sheet
+S 3900 2600 1300 950 
+U 5F35C4D1
+F0 "FPGA2" 118
+F1 "FPGA-2.sch" 118
+$EndSheet
+$Sheet
+S 6100 1750 1200 1100
+U 5F54DE73
+F0 "Memory" 118
+F1 "Memory.sch" 118
+$EndSheet
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F44C67D
+P 1950 6550
+F 0 "TP3" H 2008 6668 50  0000 L CNN
+F 1 "TestPoint" H 2008 6577 50  0000 L CNN
+F 2 "c1cada11:M3-HOLE" H 2150 6550 50  0001 C CNN
+F 3 "~" H 2150 6550 50  0001 C CNN
+	1    1950 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F44C893
+P 2550 6550
+F 0 "TP4" H 2608 6668 50  0000 L CNN
+F 1 "TestPoint" H 2608 6577 50  0000 L CNN
+F 2 "c1cada11:M3-HOLE" H 2750 6550 50  0001 C CNN
+F 3 "~" H 2750 6550 50  0001 C CNN
+	1    2550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5F44CA7F
+P 3150 6550
+F 0 "TP5" H 3208 6668 50  0000 L CNN
+F 1 "TestPoint" H 3208 6577 50  0000 L CNN
+F 2 "c1cada11:M3-HOLE" H 3350 6550 50  0001 C CNN
+F 3 "~" H 3350 6550 50  0001 C CNN
+	1    3150 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5F44CC45
+P 3750 6550
+F 0 "TP6" H 3808 6668 50  0000 L CNN
+F 1 "TestPoint" H 3808 6577 50  0000 L CNN
+F 2 "c1cada11:M3-HOLE" H 3950 6550 50  0001 C CNN
+F 3 "~" H 3950 6550 50  0001 C CNN
+	1    3750 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F44CDE5
+P 2550 6900
+F 0 "#PWR06" H 2550 6650 50  0001 C CNN
+F 1 "GND" H 2555 6727 50  0000 C CNN
+F 2 "" H 2550 6900 50  0001 C CNN
+F 3 "" H 2550 6900 50  0001 C CNN
+	1    2550 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6550 1950 6900
+Wire Wire Line
+	1950 6900 2550 6900
+Wire Wire Line
+	2550 6550 2550 6900
+Connection ~ 2550 6900
+Wire Wire Line
+	3150 6550 3150 6900
+Wire Wire Line
+	2550 6900 3150 6900
+Connection ~ 3150 6900
+Wire Wire Line
+	3150 6900 3750 6900
+Wire Wire Line
+	3750 6550 3750 6900
+$EndSCHEMATC

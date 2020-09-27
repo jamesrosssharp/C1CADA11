@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name cicada11)(type Legacy)(uri ${KIPRJMOD}/cicada11.lib)(options "")(descr "")(disabled))
+  (lib (name ciacada11-rescue)(type Legacy)(uri ${KIPRJMOD}/ciacada11-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name c1cada11-rescue)(type Legacy)(uri ${KIPRJMOD}/c1cada11-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name Lattice_iCE_FPGA)(type Legacy)(uri /home/jrsharp/hardware/KiCad-Schematic-Symbol-Libraries/Lattice_iCE_FPGA.lib)(options "")(descr ""))
+  (lib (name MCU_Microchip_SAMD)(type Legacy)(uri /home/jrsharp/hardware/KiCad-Schematic-Symbol-Libraries/MCU_Microchip_SAMD.lib)(options "")(descr ""))
+)

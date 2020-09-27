@@ -1,0 +1,8 @@
+(module "CUI 3524" (layer F.Cu) (tedit 5F3CE3FC)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "CUI 3524" (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

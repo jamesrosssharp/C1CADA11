@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name c1cada11)(type KiCad)(uri ${KIPRJMOD}/c1cada11.pretty)(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri /home/jrsharp/hardware/KiCad-Schematic-Symbol-Libraries/eec.pretty)(options "")(descr ""))
+)
